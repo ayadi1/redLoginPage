@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+main #ps1,main #ps2{
+    width: 100%;
+    height: 500px;
+}
+.disFlex{
+    display: flex;
+    /*transition*/
+    
+}
+main #ps1 .login,main #ps2 .login{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+main #ps1 .info,main #ps2 .info{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+main #ps2{
+    display: none;
+}
+
+main #ps1 .login h1{
+font-size: 50px;
+}
+main #ps1 .login p{
+margin-top: 10px;
+font-size: 25px;
+}
+main #ps1 .login input{
+margin-top: 7px;
+width: 50%;
+border-radius: 9px;
+border: none;
+background-color: #d5d3d3;
+color: black;
+font-size: 20px;
+height: 35px;
+}
+main #ps1 .login a{
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 20px;
+}
+main #ps1 .login [type="button"]{
+    background-color: #ff6000;
+width: 38%;
+margin-top: 20px;
+}
+/*info sp1*/
+
+#ps1 .info{
+    background-color: #ff6000;
+}
+#ps1 .info h1{
+    font-size: 50px;
+    color: white;
+}
+#ps1 .info p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+#ps1 .info input{
+    width: 40%;
+    border: none;
+    height: 38px;
+    border-radius: 6px;
+    background-color: orange;
+    margin-top: 25px;
+}
+/*ps2 style*/
+/*register style*/
+#ps2 .info{
+    background-color: #ff6000;
+}
+#ps2 .info h1{
+font-size: 50px;
+color: white;
+}
+#ps2 .info p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+#ps2 .info input{
+    width: 40%;
+    border: none;
+    height: 38px;
+    border-radius: 6px;
+    background-color: orange;
+    margin-top: 25px;
+}
+
+/*login*/
+
+#ps2 .login h1{
+    font-size: 50px;
+}
+#ps2 .login p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#ps2 .login a{
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 20px;
+}
+#ps2 .login input{
+    margin-top: 7px;
+    width: 50%;
+    border-radius: 9px;
+    border: none;
+    background-color: #d5d3d3;
+    color: black;
+    font-size: 20px;
+    height: 35px;
+
+}
+
+main #ps2 .login [type="button"]{
+    background-color: #ff6000;
+    width: 38%;
+    margin-top: 20px;
+}

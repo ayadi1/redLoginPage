@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="ps1">
+            <div class="disFlex">
+            <div class="login">
+                <h1>sign in</h1>
+                <p>you account </p>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <a href="">forgot your password</a>
+                <input type="button"  value="sign in">
+            </div>
+            <div class="info">
+                <h1>Hello</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <input type="button" value="sign up" onclick="showP2()">
+            </div>
+        </div>
+        </div>
+        <div id="ps2">
+            <div class="disFlex">
+            <div class="info">
+                <h1>Hello</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <input type="button" value="sign in" onclick="showP1()">
+            </div>
+            <div class="login">
+                <h1>sign in</h1>
+                <p>email</p>
+                <input type="email" placeholder="Email">
+                <p>password</p>
+                <input type="password" placeholder="password">
+                <p>user name</p>
+                <input type="text" placeholder="user name">
+                <input type="button"  value="sign up">
+            </div>
+        </div>
+        </div>
+    </main>
+    <script>
+        function showP2(){
+             document.getElementById("ps1").style.display="none"
+             document.getElementById("ps2").style.display="block"
+        }
+        function showP1(){
+              document.getElementById("ps2").style.display="none"
+             document.getElementById("ps1").style.display="block"
+        }
+    </script>
+</body>
+</html>
